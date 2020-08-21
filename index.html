@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>vote</title>
+</head>
+<body>
+
+    <div id="main-container">
+        <!--viewboard-->
+        <div class="viewboard">
+            <p style="font-size: 11px; margin-top: 5px;">My Available votes</p>
+            <h3 class="avail">100</h3>
+            <div class="progressbar"></div>
+          </div>
+    
+        <!--voting container-->
+        <div class="container">
+
+        <div class="housemates">
+            <div class="Dorathy"></div>
+            <h2>Dorathy</h2>
+            <div class="hm">
+                <img src="images/Dorath.png" alt="Dorat" class="img1">
+            <button id="subtract">-</button>
+                <input type="number" value="0" class="count1">
+            <button  id="add">+</button>
+            </div>
+        </div>
+
+        <div class="housemates">
+            <div class="Prince"></div>
+            <h2>Prince</h2>
+            <div class="hm">
+                <img src="images/Prince.png" alt="prince" class="img2">
+            <button id="subtract2">-</button>
+                <input type="number" value="0" class="count2">
+            <button id="add2">+</button>
+            </div>
+        </div>
+
+        <div class="housemates">
+            <div class="Nengi"></div>
+            <h2>Nengi</h2>
+            <div class="hm">
+                <img src="images/nengi.jpg" alt="" class="img3">
+            <button id="subtract3">-</button>
+                <input type="number" value="0" class="count3">
+            <button id="add3">+</button>
+            </div>
+        </div>
+
+        <div class="housemates">
+            <div class="Brighto"></div>
+            <h2>Brighto</h2>
+            <div class="hm">
+                <img src="images/brighto.png" alt="" class="img4">
+            <button id="subtract4">-</button>
+                <input type="number" value="0" class="count4">
+            <button id="add4">+</button>
+            </div>
+        </div>
+
+        <div class="housemates">
+            <div class="Erica"></div>
+            <h2>Erica</h2>
+            <div class="hm">
+                <img src="images/Erica.jpg" alt="" class="img5">
+            <button id="subtract5">-</button>
+                <input type="number" value="0" class="count5">
+            <button id="add5">+</button>
+            </div>
+        </div>
+
+        <div class="housemates">
+            <div class="Praise"></div>
+            <h2>Praise</h2>
+            <div class="hm">
+                <img src="images/Praise.png" alt="" class="img6">
+            <button id="subtract6">-</button>
+                <input type="number" value="0" class="count6">
+            <button id="add6">+</button>
+            </div>
+        </div>
+        </div>
+
+        <!--button leading to the leaderboard page-->
+        <button class="leader-btn">
+      <h4>Leaderboard</h4>
+        </button>
+        <p style="color: red; font-size: 12px;">*Finish the votes</p>
+     </div>
+
+     
+    <!--leaderboard page-->
+    <div id="leaderpage">
+        <h1 class="lead">Leaderboard</h1>
+        <div class="scoreboard">
+            
+        </div>
+
+            <h5 class="tag">Dorathy was evicted</h5>
+            <button class="back-btn">
+                <h4>Back to votes</h4>
+            </button>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
